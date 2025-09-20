@@ -24,7 +24,7 @@ This project examines the relationship between economic growth, CO₂ emissions,
 ## Repository Structure
 ```
 ├── README.md # Project description
-├── analysis.R # R script with data cleaning & analysis
+├── r_script.R # R script with data cleaning & analysis
 ├── project_summary.pdf #  Report
 └── data/ #contains the raw World Bank datasets (CSV format)
 ```
