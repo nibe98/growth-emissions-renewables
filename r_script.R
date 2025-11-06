@@ -16,16 +16,16 @@ library(kableExtra)
 
 ### import the datasets
 # co2 per capita
-data_co2_c = read.csv("co2_pc_data.csv", header=TRUE)
+data_co2_c <- read.csv("co2_pc_data.csv", header=TRUE)
 
 # gdp per capita
-data_gdp_c = read.csv("gdp_per_capita.csv", header=TRUE)
+data_gdp_c <- read.csv("gdp_per_capita.csv", header=TRUE)
 
 # energy use per capita
-data_energy_c = read.csv("energy_use_per_capita.csv", header=TRUE)
+data_energy_c <- read.csv("energy_use_per_capita.csv", header=TRUE)
 
 # share consumptions of renewable energy
-data_consumption_renewable = read.csv("share_consumption_renewable_energy.csv", header=TRUE)
+data_consumption_renewable <- read.csv("share_consumption_renewable_energy.csv", header=TRUE)
 
 # overview 
 summary(data_co2_c)
@@ -248,6 +248,7 @@ ggplot(highlighted_data, aes(x = Year, y = renewables_share, color = Entity)) +
     color = "Country"
   ) +
   theme_minimal()
+
 
 
 
